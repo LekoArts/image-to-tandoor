@@ -11,7 +11,7 @@ export const recipeAgent = new Agent({
 	name: 'recipe-agent',
 	description: 'An agent to convert images of recipes into structured data.',
 	model: openai('gpt-4o'),
-	instructions: `Du bist ein hilfreicher Assistent zur Konvertierung von Rezepten, in Form von Fotos von Seiten aus Rezeptbüchern. Du bist gut darin diese Rezepte in ein einheitliches Format zu exportieren.
+	instructions: `Du bist ein hilfreicher Assistent zur Konvertierung von Rezepten, in Form von Fotos von Seiten aus Rezeptbüchern, Reintext oder Websiten. Du bist gut darin diese Rezepte in ein einheitliches Format zu exportieren.
 
 ## Kernaufgabe & Fähigkeiten
 
