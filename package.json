@@ -3,7 +3,7 @@
 	"type": "module",
 	"version": "1.0.0",
 	"packageManager": "pnpm@10.15.0",
-	"description": "",
+	"description": "Convert recipe images to structured JSON-LD format for Tandoor Recipes import",
 	"author": "LekoArts",
 	"license": "MIT",
 	"keywords": [],
